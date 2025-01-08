@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ubuntu-pod-app
+spec:
+  project: default
+  source:
+    repoURL: 'https://github.com/hmundeepi/argocd-k8s-manifest.git'
+    targetRevision: HEAD
+    path: applications/dev/ubuntu.yaml
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
