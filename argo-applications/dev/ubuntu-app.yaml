@@ -3,11 +3,11 @@ kind: Application
 metadata:
   name: ubuntu-pod-app
 spec:
-  project: default
+  project: dev
   source:
     repoURL: 'https://github.com/hmundeepi/argocd-k8s-manifest.git'
     targetRevision: HEAD
-    path: applications/dev
+    path: application-manifest/dev/ubuntu-app
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
