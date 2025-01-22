@@ -41,7 +41,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   type: ClusterIP
   ports:
@@ -68,7 +67,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   type: ClusterIP
   clusterIP: None
@@ -101,7 +99,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   type: ClusterIP
   ports:
@@ -128,7 +125,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   type: ClusterIP
   ports:
@@ -155,7 +151,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   type: ClusterIP
   ports:
@@ -182,7 +177,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   type: ClusterIP
   ports:
@@ -209,7 +203,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   replicas: 1
   selector:
@@ -330,7 +323,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   replicas: 1
   selector:
@@ -451,7 +443,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   replicas: 1
   selector:
@@ -572,7 +563,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   replicas: 1
   serviceName: quickwit-headless
@@ -696,7 +686,6 @@ metadata:
     app.kubernetes.io/instance: quickwit
     app.kubernetes.io/version: "v0.8.2"
     app.kubernetes.io/managed-by: Helm
-  annotations:
 spec:
   replicas: 3
   serviceName: quickwit-headless
