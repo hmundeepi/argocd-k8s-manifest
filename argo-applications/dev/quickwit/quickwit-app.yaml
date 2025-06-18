@@ -7,7 +7,7 @@ spec:
   source:
     repoURL: 'https://github.com/hmundeepi/argocd-k8s-manifest.git'
     targetRevision: HEAD
-    path: application-manifest/dev/quickwit-app1
+    path: application-manifest/dev/quickwit-app
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: quickwit
