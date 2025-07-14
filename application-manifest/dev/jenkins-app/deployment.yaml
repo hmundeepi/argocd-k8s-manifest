@@ -21,7 +21,7 @@ spec:
                   - key: kubernetes.io/hostname
                     operator: In
                     values:
-                      - control-plane  # <-- Replace with your actual node name if different
+                      - himanshu-ubuntu  # <-- Replace with your actual node name if different
       securityContext:
         fsGroup: 1000 
         runAsUser: 1000
