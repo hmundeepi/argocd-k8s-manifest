@@ -30,7 +30,7 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - control-plane
+          - himanshu-ubuntu
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
